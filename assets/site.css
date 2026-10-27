@@ -5,6 +5,7 @@
   --body: #333333;
   --muted: #5F5F5F;
   --hero: #F7F7F7;
+  --header: #ECEDEA;
   --band: #EEEFED;
   --card: #F7F7F7;
   --btn: #282626;
@@ -46,7 +47,7 @@ h1, h2, h3 { font-weight: 400; line-height: 1.2; margin: 0; }
 .btn-sm { font-size: 14px; padding: 10px 22px; }
 
 /* header */
-.site-header { background: var(--hero); border-bottom: 1px solid #E7E9E6; }
+.site-header { background: var(--header); border-bottom: 1px solid #DADCD8; }
 .header-inner { display: flex; align-items: center; justify-content: space-between; gap: 24px; padding-top: 22px; padding-bottom: 22px; }
 .brand { display: block; width: 260px; flex: 0 1 260px; }
 .brand img { display: block; width: 100%; }
@@ -106,6 +107,12 @@ h1, h2, h3 { font-weight: 400; line-height: 1.2; margin: 0; }
 .file p { margin: 0 0 8px; font-size: 14px; color: var(--body); }
 .file-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 12px !important; }
 
+/* copyright section */
+.copyright { background: var(--hero); padding: 48px 0 64px; }
+.copyright h2 { font-size: 24px; color: #444; margin-bottom: 22px; }
+.copyright p { font-size: 16px; color: var(--text); margin: 0 0 22px; max-width: 980px; overflow-wrap: anywhere; }
+.copyright a { color: var(--text); }
+
 /* landing list */
 .pubs { padding: 56px 0 72px; }
 .pub-list { list-style: none; margin-top: 0; margin-bottom: 0; display: grid; gap: 18px; max-width: 1000px; }
@@ -155,4 +162,21 @@ h1, h2, h3 { font-weight: 400; line-height: 1.2; margin: 0; }
   .file { grid-template-columns: 1fr; }
   .file img { justify-self: start; }
   .footer-light { grid-template-columns: 1fr; }
+}
+
+/* desktop refinements (phone layout above is unchanged) */
+@media (min-width: 721px) {
+  .header-inner { padding-top: 30px; padding-bottom: 30px; }
+  .brand { width: 300px; flex-basis: 300px; }
+  .header-actions { width: 220px; flex-basis: 220px; gap: 8px; }
+  .btn-black, .btn-donate { font-size: 17px; height: 48px; padding: 0 18px; letter-spacing: 0.02em; }
+}
+@media (min-width: 901px) {
+  .footer-light { grid-template-columns: 1fr 1fr; gap: 0; padding: 48px 0 52px; align-items: start; }
+  .footer-light > .footer-links, .footer-light > .footer-contact { justify-self: center; }
+  .footer-dark { display: flex; justify-content: center; align-items: flex-start; padding: 48px 40px 52px; }
+  .footer-dark-inner { width: 100%; max-width: 440px; }
+  .footer-links, .footer-contact p, .footer-dark p { font-size: 13.5px; line-height: 1.6; }
+  .footer-contact p:first-child, .footer-dark p:first-child { margin-top: 0; }
+  .chev { font-size: inherit; line-height: 1; }
 }
