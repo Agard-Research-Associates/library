@@ -11,6 +11,21 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/report/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/summary/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/references/</loc>
+    <lastmod>2026-11-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://library.agardresearchassociates.org/veterans-preference-rif/report/veterans-preference-rif-policy-analysis-v1.0.pdf</loc>
     <lastmod>2026-11-07</lastmod>
     <priority>0.7</priority>
