@@ -3,162 +3,509 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Library | Agard Research Associates Inc.</title>
-<meta name="description" content="Agard Research Associates Inc. is a nonpartisan, nonprofit research organization. Browse its reports, workshop resources, and presentations.">
-<meta name="keywords" content="Agard Research Associates Inc., ARA, nonpartisan research, nonprofit research organization, policy research, New Jersey, publications, reports, workshops">
-<meta name="author" content="Agard Research Associates Inc.">
-<meta name="robots" content="index, follow, max-image-preview:large">
-<link rel="canonical" href="https://library.agardresearchassociates.org/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Agard Research Associates Inc.">
-<meta property="og:locale" content="en_US">
-<meta property="og:url" content="https://library.agardresearchassociates.org/">
-<meta property="og:title" content="Library | Agard Research Associates Inc.">
-<meta property="og:description" content="Agard Research Associates Inc. is a nonpartisan, nonprofit research organization. Browse its reports, workshop resources, and presentations.">
-<meta property="og:image" content="https://library.agardresearchassociates.org/assets/share/ara-default.png">
-<meta property="og:image:secure_url" content="https://library.agardresearchassociates.org/assets/share/ara-default.png">
-<meta property="og:image:type" content="image/png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Agard Research Associates logo on a dark green background">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Library | Agard Research Associates Inc.">
-<meta name="twitter:description" content="Agard Research Associates Inc. is a nonpartisan, nonprofit research organization. Browse its reports, workshop resources, and presentations.">
-<meta name="twitter:image" content="https://library.agardresearchassociates.org/assets/share/ara-default.png">
-<meta name="twitter:image:alt" content="Agard Research Associates logo on a dark green background">
+<title>Veterans’ Preference in Federal Reductions in Force: Interactive Guide | Agard Research Associates Inc.</title>
+<meta name="description" content="An interactive guide from Agard Research Associates Inc. to how OPM’s 2026 reduction-in-force rule changes veterans’ preference in federal layoffs. This version is for embedding.">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://library.agardresearchassociates.org/veterans-preference-rif/">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="/assets/icons/favicon-96.png" type="image/png" sizes="96x96">
-<link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="manifest" href="/site.webmanifest">
-<meta name="theme-color" content="#E0E2DE">
+<!-- Theme: ?theme=dark or ?theme=light sets the starting theme; otherwise the reader's saved choice, then their device setting. -->
+<script>(function(){var t=null,m=/[?&]theme=(dark|light)/.exec(location.search);if(m){t=m[1];}else{try{t=localStorage.getItem("ara-theme");}catch(e){}}if(t!=="dark"&&t!=="light"){t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";}document.documentElement.setAttribute("data-theme",t);})();</script>
 <link rel="stylesheet" href="/assets/site.css">
-<script type="application/ld+json">{
- "@context": "https://schema.org",
- "@type": "WebSite",
- "@id": "https://library.agardresearchassociates.org/#website",
- "name": "Agard Research Associates",
- "alternateName": [
-  "Agard Research Associates Inc.",
-  "ARA"
- ],
- "url": "https://library.agardresearchassociates.org/",
- "inLanguage": "en-US",
- "publisher": {
-  "@id": "https://www.agardresearchassociates.org/#organization"
- }
-}</script>
-<script type="application/ld+json">{
- "@context": "https://schema.org",
- "@type": "Organization",
- "@id": "https://www.agardresearchassociates.org/#organization",
- "name": "Agard Research Associates Inc.",
- "alternateName": [
-  "Agard Research Associates",
-  "ARA"
- ],
- "url": "https://www.agardresearchassociates.org/",
- "logo": "https://library.agardresearchassociates.org/assets/icons/favicon-512.png",
- "email": "info@agardresearchassociates.org",
- "address": {
-  "@type": "PostalAddress",
-  "streetAddress": "859 US Highway 130, Ste 5 PMB 5020",
-  "addressLocality": "East Windsor",
-  "addressRegion": "NJ",
-  "postalCode": "08520-2900",
-  "addressCountry": "US"
- },
- "sameAs": [
-  "https://www.agardresearchassociates.org/",
-  "https://ror.org/027b2ns06",
-  "https://app.candid.org/profile/16414398/agard-research-associates-inc-33-3784865"
- ]
-}</script>
-<script type="application/ld+json">{
- "@context": "https://schema.org",
- "@type": "CollectionPage",
- "name": "Library | Agard Research Associates Inc.",
- "description": "Agard Research Associates Inc. is a nonpartisan, nonprofit research organization. Browse its reports, workshop resources, and presentations.",
- "url": "https://library.agardresearchassociates.org/",
- "isPartOf": {
-  "@id": "https://library.agardresearchassociates.org/#website"
- },
- "hasPart": [
-  {
-   "@type": "CreativeWork",
-   "name": "Veterans’ Preference in Federal Reductions in Force",
-   "alternativeHeadline": "An Interactive Guide to the 2026 Reduction-in-Force Rule",
-   "url": "https://library.agardresearchassociates.org/veterans-preference-rif/"
-  },
-  {
-   "@type": "CreativeWork",
-   "name": "Nonprofit Transparency and Public Trust",
-   "alternativeHeadline": "What the Research Says About Nonprofit Disclosure, Accountability, and Giving",
-   "url": "https://library.agardresearchassociates.org/nonprofit-transparency/"
+<link rel="stylesheet" href="/veterans-preference-rif/guide.css">
+<style>
+  /* Guide-only page for embedding: no site header or footer, fills its frame. */
+  html, body { background: var(--rg-page); margin: 0; min-height: 100%; }
+  body { font-family: var(--rg-serif); color: var(--rg-text); display: block; }
+  .embed-wrap { max-width: 1180px; margin: 0 auto; padding: 0 32px 36px; }
+  .embed-head { padding: 22px 0 6px; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 20px; }
+  .embed-head h1 { margin: 0; font-family: var(--rg-serif); font-weight: 400; font-size: 26px; line-height: 1.25; color: var(--rg-ink); }
+  .embed-head p { margin: 0; font-family: var(--rg-serif); font-size: 13px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--rg-muted); }
+  .embed-foot { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--rg-rule); font-family: var(--rg-serif); font-size: 14px; color: var(--rg-muted); }
+  .embed-foot a { color: var(--rg-link); }
+  .rif-guide .rg-fs svg { display: block; }
+  .rif-guide .rg-fs .txt { display: none; }
+  .rif-guide .rg-fs { padding: 8px 10px; }
+  @media (max-width: 1100px) {
+    .rif-guide .rg-theme .txt { display: none; }
+    .rif-guide .rg-theme { padding: 8px 10px; }
+    .rif-guide .rg-tabs button { font-size: 15px; padding: 14px 7px 11px; }
+    .embed-wrap { padding: 0 24px 32px; }
   }
- ]
-}</script>
+  :fullscreen body { overflow-y: auto; }
+  @media (max-width: 760px) {
+    .embed-wrap { padding: 0 16px 28px; }
+    .embed-head h1 { font-size: 21px; }
+  }
+</style>
 </head>
 <body>
-<a class="skip" href="#main">Skip to main content</a>
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a class="brand" href="https://www.agardresearchassociates.org/" target="_blank" rel="noopener"><img src="/assets/img/ara-lockup.png" width="260" height="46" alt="Agard Research Associates"><span class="sr-only"> (opens in a new window)</span></a>
-    <nav class="header-actions" aria-label="Get involved and donate">
-      <a class="btn btn-black" href="https://www.agardresearchassociates.org/get-involved" target="_blank" rel="noopener">Get Involved<span class="sr-only"> (opens in a new window)</span></a>
-      <a class="btn btn-donate" href="https://www.agardresearchassociates.org/support-us" target="_blank" rel="noopener">Donate<span class="sr-only"> (opens in a new window)</span></a>
-    </nav>
-  </div>
-</header>
-<main id="main">
-  <section class="hero hero-landing">
-    <div class="wrap hero-inner">
-      <img class="mark" src="/assets/img/ara-mark.png" width="105" height="78" alt="">
-      <h1>Library</h1>
-      <p class="hero-sub">Reports, workshop resources, and presentations from Agard Research Associates Inc.</p>
-    </div>
-  </section>
-  <section class="pubs" aria-label="Publications">
-    <ul class="wrap pub-list">
-      <li class="pub-card">
-        <h2>Veterans’ Preference in Federal Reductions in Force</h2>
-        <p class="pub-sub">An Interactive Guide to the 2026 Reduction-in-Force Rule</p>
-        <a class="btn btn-view" href="/veterans-preference-rif/" target="_blank" rel="noopener">View here<span class="sr-only"> (opens in a new window)</span></a>
-      </li>
-      <li class="pub-card">
-        <h2>Nonprofit Transparency and Public Trust</h2>
-        <p class="pub-sub">What the Research Says About Nonprofit Disclosure, Accountability, and Giving</p>
-        <a class="btn btn-view" href="/nonprofit-transparency/" target="_blank" rel="noopener">View here<span class="sr-only"> (opens in a new window)</span></a>
-      </li>
-    </ul>
-    <p class="wrap more">For all of our work, visit <a href="https://www.agardresearchassociates.org/all-publications" target="_blank" rel="noopener">All Publications<span class="sr-only"> (opens in a new window)</span></a> on our website.</p>
-  </section>
-</main>
-<footer class="site-footer">
-  <div class="footer-badges">
-    <div class="wrap badges-inner">
-      <a class="badge badge-ror" href="https://ror.org/027b2ns06" target="_blank" rel="noopener"><img src="/assets/img/ror-logo.png" width="88" height="25" alt="ROR, Research Organization Registry: Agard Research Associates Inc."><span class="sr-only"> (opens in a new window)</span></a>
-      <a class="badge badge-candid" href="https://app.candid.org/profile/16414398/agard-research-associates-inc-33-3784865" target="_blank" rel="noopener"><img src="/assets/img/candid-seal.png" width="64" height="64" alt="Candid Platinum Transparency seal: Agard Research Associates Inc. profile on Candid"><span class="sr-only"> (opens in a new window)</span></a>
-    </div>
-  </div>
-  <div class="footer-main">
-    <div class="footer-light">
-      <ul class="footer-links">
-        <li><a href="https://www.agardresearchassociates.org/terms-of-use" target="_blank" rel="noopener">Terms of Use<span class="sr-only"> (opens in a new window)</span></a></li><li><a href="https://www.agardresearchassociates.org/privacy-policy" target="_blank" rel="noopener">Privacy Policy<span class="sr-only"> (opens in a new window)</span></a></li><li><a href="https://www.agardresearchassociates.org/data-and-privacy-rights" target="_blank" rel="noopener">Data &amp; Privacy Rights<span class="sr-only"> (opens in a new window)</span></a></li><li><a href="https://www.agardresearchassociates.org/cookie-policy" target="_blank" rel="noopener">Cookies<span class="sr-only"> (opens in a new window)</span></a></li><li><a href="https://www.agardresearchassociates.org/legal-disclaimer" target="_blank" rel="noopener">Legal Disclaimer<span class="sr-only"> (opens in a new window)</span></a></li><li><a href="https://www.agardresearchassociates.org/accessibility-statement" target="_blank" rel="noopener">Accessibility Statement<span class="sr-only"> (opens in a new window)</span></a></li>
-      </ul>
-      <div class="footer-contact">
-        <p class="newsletter"><a href="https://www.agardresearchassociates.org/#vita-publica" target="_blank" rel="noopener">Subscribe to Our Newsletter <span aria-hidden="true" class="chev">&rsaquo;</span><span class="sr-only"> (opens in a new window)</span></a></p>
-        <p><a class="muted" href="mailto:info@agardresearchassociates.org">info@agardresearchassociates.org</a><br><a href="https://www.agardresearchassociates.org/contact-us" target="_blank" rel="noopener">Contact Us<span class="sr-only"> (opens in a new window)</span></a></p>
-        <p class="address">859 US Highway 130<br>Ste 5 PMB 5020<br>East Windsor, NJ 08520-2900</p>
-      </div>
-    </div>
-    <div class="footer-dark">
-      <div class="footer-dark-inner">
-      <p>&copy; 2026 Agard Research Associates Inc. This work is licensed under a <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License<span class="sr-only"> (opens in a new window)</span></a>.</p>
-      <p>&copy; 2026 Agard Research Associates Inc. All written, visual, and digital content on this site is protected by U.S. and international copyright law. Unauthorized reproduction or distribution is prohibited.</p>
-      </div>
-    </div>
-  </div>
-</footer>
+<div class="embed-wrap">
+  <header class="embed-head">
+    <h1>Veterans’ Preference in Federal Reductions in Force</h1>
+    <p>Agard Research Associates Inc.</p>
+  </header>
+<article class="rif-guide" data-rif-guide>
+
+        <div class="rg-bar">
+          <div class="rg-tabs" role="tablist" aria-label="Sections of the guide">
+            <button type="button" role="tab" id="tab-overview" aria-controls="overview" aria-selected="true"><span class="n">1</span>Overview</button>
+            <button type="button" role="tab" id="tab-scoring" aria-controls="scoring" aria-selected="false" tabindex="-1"><span class="n">2</span>Scoring</button>
+            <button type="button" role="tab" id="tab-register" aria-controls="register" aria-selected="false" tabindex="-1"><span class="n">3</span>Sample Register</button>
+            <button type="button" role="tab" id="tab-credit" aria-controls="credit" aria-selected="false" tabindex="-1"><span class="n">4</span>Credit Value</button>
+            <button type="button" role="tab" id="tab-affected" aria-controls="affected" aria-selected="false" tabindex="-1"><span class="n">5</span>Who Is Affected</button>
+            <button type="button" role="tab" id="tab-debate" aria-controls="debate" aria-selected="false" tabindex="-1"><span class="n">6</span>Both Sides</button>
+            <button type="button" role="tab" id="tab-status" aria-controls="status" aria-selected="false" tabindex="-1"><span class="n">7</span>Status and Steps</button>
+            <button type="button" role="tab" id="tab-sources" aria-controls="sources" aria-selected="false" tabindex="-1"><span class="n">8</span>Sources</button>
+          </div>
+          <button type="button" class="rg-theme" id="rg-theme" aria-pressed="false" aria-label="Switch to dark mode"><span class="dot" aria-hidden="true"></span><span class="txt">Dark mode</span></button>
+<button type="button" class="rg-theme rg-fs" id="rg-fs" aria-pressed="false" hidden><svg width="13" height="13" viewBox="0 0 13 13" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 4.5V1h3.5M8.5 1H12v3.5M12 8.5V12H8.5M4.5 12H1V8.5"/></svg><span class="txt">Full screen</span></button>
+        </div>
+
+        <!-- ================================================================ 1 -->
+        <section class="rg-panel on" id="overview" role="tabpanel" aria-labelledby="tab-overview">
+          <div class="bottom-line">
+            <span class="label">The bottom line</span>
+            <p><b>In a federal reduction in force (RIF), veterans’ preference used to be a place in line. Under the rule in effect since
+            September 2, 2026, it is a fixed number of points that a nonveteran with higher ratings can overcome.</b> Employees are now ranked
+            mainly by their three most recent ratings of record, on a scale whose ordinary maximum is 21 points. Preference eligibles with a compensable
+            service-connected disability of 30 percent or more add 5 points, and other preference eligibles add 3 (5 C.F.R. § 351.504(a)).</p>
+            <p>The rule governs RIF notices issued on or after September 2, 2026. Whether it is consistent with 5 U.S.C. § 3502 is disputed. As
+            of November 1, 2026, the sources reviewed for this guide identify no lawsuit directly challenging it.</p>
+          </div>
+
+          <h3><span class="no">1.</span>What the Rule Changes</h3>
+          <div class="prose">
+            <p class="lede">When an agency must release employees from their positions, it ranks those who compete for the same kinds of jobs on
+            a retention register, and those with the lowest standing are released first. Federal law directs the Office of Personnel Management
+            (OPM) to give “due effect” to tenure of employment, military preference, length of service, and performance ratings in setting that
+            order (5 U.S.C. § 3502(a)). The final rule changes how OPM does so. In this guide, “veteran” means an employee with veterans’
+            preference.</p>
+          </div>
+
+          <div class="orders">
+            <div class="order">
+              <div class="head"><b>Before September 2, 2026</b><span class="label">Prior rules</span></div>
+              <ol>
+                <li><div><b>Tenure group</b><span>Group I (career employees not serving probation) before Group II (career-conditional employees and employees serving probation) before Group III.</span></div></li>
+                <li><div><b>Veterans’ preference subgroup</b><span>AD (compensable service-connected disability of 30 percent or more), then A (other preference eligibles), then B (all others).</span></div></li>
+                <li><div><b>Length of service</b><span>Years of service, plus additional years for up to three recent ratings: 20, 16, or 12 for each rating at Level 5, 4, or 3, added together, divided by 3, and rounded up to a whole number.</span></div></li>
+              </ol>
+            </div>
+            <div class="order final">
+              <div class="head"><b>From September 2, 2026</b><span class="label">Final rule</span></div>
+              <ol>
+                <li><div><b>One score</b><span>Points for the three most recent ratings of record, ordinarily up to 21, plus 5 or 3 points for preference eligibles.</span></div></li>
+                <li><div><b>Tenure subgroup</b><span>Subgroup I (career) before subgroup II (career-conditional), used only to break a tie in score.</span></div></li>
+                <li><div><b>Service computation date</b><span>Used only when both the score and the tenure subgroup are tied.</span></div></li>
+              </ol>
+            </div>
+          </div>
+          <p class="source">Sources: 85 Fed. Reg. at 81,841 (prior tenure groups); 91 Fed. Reg. at 10,907, 10,911-12 (prior order of retention and additional service credit); 5 C.F.R. §§ 351.501(c), 351.503, 351.504(a).</p>
+          <p class="callout">Under the prior rules, preference decided every comparison between a veteran and a nonveteran in the same tenure group.
+          Under the final rule, preference competes with performance on a common scale.</p>
+
+          <p class="caption" id="t1">Table 1. Retention order before and after September 2, 2026</p>
+          <div class="table-scroll">
+            <table aria-labelledby="t1">
+              <thead><tr><th scope="col" style="width:20%">Feature</th><th scope="col">Prior rules (RIFs noticed before September 2, 2026)</th><th scope="col">Final rule (RIFs noticed on or after September 2, 2026)</th></tr></thead>
+              <tbody>
+                <tr><td>First sort</td><td>Tenure Groups I, II, and III</td><td>Competitive or excepted service tenure group, on separate registers</td></tr>
+                <tr><td>Veterans’ preference</td><td>Subgroups AD, A, and B; every preference eligible ranks ahead of every nonpreference employee in the same tenure group</td><td>Points added to performance credit: 5 (30 percent or more disabled) or 3 (other preference eligibles)</td></tr>
+                <tr><td>Performance</td><td>Additional service credit of 12 to 20 years per rating, for up to three ratings, added together and divided by 3, applied within subgroups</td><td>Primary ranking factor: 7, 5, 3, or 0 points per rating over three ratings, ordinary maximum 21</td></tr>
+                <tr><td>Tenure and length of service</td><td>Primary sort (tenure) and ranking within subgroups (service date)</td><td>Tie-breakers only: tenure subgroup, then service computation date</td></tr>
+                <tr><td>Probationary employees</td><td>Compete in Group II with preference subgroups</td><td>Not competing employees; excluded from the register</td></tr>
+                <tr><td>Appeals</td><td>Merit Systems Protection Board (MSPB), then the Federal Circuit</td><td>OPM only; no grievance; no judicial review of OPM decisions; Veterans Employment Opportunities Act (VEOA) remedies preserved</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="source">Sources: 85 Fed. Reg. at 81,841; 91 Fed. Reg. at 10,911-12, 49,178-79, 49,220-22, 49,230, 49,242-43; 5 C.F.R. § 351.202(d).</p>
+
+          <h4>Key terms</h4>
+          <dl class="terms">
+            <div><dt>Reduction in force</dt><dd>The procedure an agency follows when it releases a competing employee from a competitive level by furlough for more than 30 days, separation, demotion, or reassignment requiring displacement, when the release is required because of lack of work, shortage of funds, insufficient personnel ceiling, reorganization, or the exercise of reemployment or restoration rights (5 C.F.R. § 351.201(a)(2)).</dd></div>
+            <div><dt>Competitive area and competitive level</dt><dd>The competitive area sets the organizational and geographic limits within which employees compete. The competitive level groups positions in the same grade (or occupational level) and classification series that are similar enough in duties, qualification requirements, pay schedules, and working conditions that an agency could reassign an employee among them without undue interruption (5 C.F.R. §§ 351.402, 351.403(a)(1)).</dd></div>
+            <div><dt>Retention register</dt><dd>The list on which an agency ranks the competing employees in a competitive level by retention standing (5 C.F.R. § 351.404).</dd></div>
+            <div><dt>Preference eligible</dt><dd>A veteran who meets the definitions in 5 U.S.C. § 2108, and in some circumstances a veteran’s spouse, unmarried widow or widower, or parent.</dd></div>
+            <div><dt>Subgroups AD, A, and B</dt><dd>AD covers preference eligibles with a compensable service-connected disability of 30 percent or more, A covers other preference eligibles, and B covers employees without preference. Under the final rule, the labels identify the 5-, 3-, and 0-point credits (5 C.F.R. § 351.504(a)).</dd></div>
+            <div><dt>Rating of record</dt><dd>The performance rating prepared at the end of an appraisal period, with a summary level such as Level 3, Fully Successful (5 C.F.R. § 430.203).</dd></div>
+            <div><dt>Modal rating</dt><dd>The summary rating level assigned most often among the actual ratings of record given under the employee’s summary level pattern, within the competitive area (or, at the agency’s option, a larger part of the agency or the whole agency), for the most recently completed appraisal period. It stands in for an employee with no rating (5 C.F.R. §§ 351.203, 351.503).</dd></div>
+            <div><dt>VEOA complaint</dt><dd>Under the Veterans Employment Opportunities Act of 1998, a preference eligible who believes a veterans’ preference law or regulation was violated may file a complaint with the Secretary of Labor (5 U.S.C. § 3330a).</dd></div>
+          </dl>
+          <div class="pager"><button type="button" class="next" data-go="scoring"><span class="label">Next</span>2. How the Score Is Calculated</button></div>
+        </section>
+
+        <!-- ================================================================ 2 -->
+        <section class="rg-panel" id="scoring" role="tabpanel" aria-labelledby="tab-scoring">
+          <h3><span class="no">2.</span>How the Score Is Calculated</h3>
+          <p class="lede">Each employee’s score is the sum of the points for three ratings of record, plus the veterans’ credit where it applies.</p>
+          <div class="scoregrid">
+            <div>
+              <p class="caption" id="t2" style="margin-top:0">Table 2. Points under the final rule</p>
+              <table aria-labelledby="t2">
+                <thead><tr><th scope="col">Rating of record or preference status</th><th scope="col" class="n">Points</th></tr></thead>
+                <tbody>
+                  <tr><td>Level 5, Outstanding</td><td class="n">7</td></tr>
+                  <tr><td>Level 4, Exceeds Fully Successful</td><td class="n">5</td></tr>
+                  <tr><td>Level 3, Fully Successful</td><td class="n">3</td></tr>
+                  <tr><td>Level 2 or Level 1</td><td class="n">0</td></tr>
+                  <tr><td>Compensable service-connected disability of 30 percent or more (AD)</td><td class="n">+5</td></tr>
+                  <tr><td>Other preference eligible (A)</td><td class="n">+3</td></tr>
+                </tbody>
+              </table>
+              <p class="source">Sources: 5 C.F.R. §§ 351.503(a), 351.504(a); 91 Fed. Reg. at 49,220-22.</p>
+            </div>
+            <div class="worked">
+              <span class="label">A worked comparison</span>
+              <p class="eq">Rating 1 + Rating 2 + Rating 3 <i>+ veterans’ credit</i></p>
+              <div class="line"><span>Veteran with a 30 percent disability, rated 3, 3, and 3: 3 + 3 + 3 + 5</span><span>14</span></div>
+              <div class="line"><span>Nonveteran rated 4, 4, and 4: 5 + 5 + 5</span><span>15</span></div>
+              <p style="font-size:16px">The nonveteran ranks ahead. A one-level difference held across all three ratings is worth 6 points, more than either credit.</p>
+            </div>
+          </div>
+          <div class="lead-list">
+            <p><b>Which ratings count.</b> The score uses the three most recent ratings of record received in the four years before RIF notices
+            issue. One rating is counted three times, two ratings are averaged to supply the third, and an employee with no rating receives the
+            modal rating (5 C.F.R. § 351.503; 91 Fed. Reg. at 49,220-22).</p>
+            <p><b>How ties are broken.</b> Employees with equal scores are ordered by tenure subgroup and then by service computation date
+            (5 C.F.R. § 351.501(c)).</p>
+            <p><b>When standing is fixed.</b> Retention standing is determined as of the date an employee receives a specific RIF notice, not the
+            date the RIF takes effect (91 Fed. Reg. at 49,178-79).</p>
+            <p><b>What the credit is worth on the scale.</b> OPM calculates the 3- and 5-point credits as 14.3 and 23.8 percent of the 21-point
+            scale (91 Fed. Reg. at 49,181). Under Pattern C, adjacent rating levels from Fully Successful to Outstanding differ by 2 points per
+            rating. Under Pattern B, which has no Level 4, a single step from Fully Successful to Outstanding is worth 4 points, more than the
+            3-point credit.</p>
+          </div>
+          <div class="pager">
+            <button type="button" data-go="overview"><span class="label">Previous</span>1. What the Rule Changes</button>
+            <button type="button" class="next" data-go="register"><span class="label">Next</span>3. A Sample Retention Register</button>
+          </div>
+        </section>
+
+        <!-- ================================================================ 3 -->
+        <section class="rg-panel" id="register" role="tabpanel" aria-labelledby="tab-register">
+          <h3><span class="no">3.</span>A Sample Retention Register</h3>
+          <p class="lede">Choose an example or change any employee. The two registers show how the same four people would be ordered under the
+          prior rules and under the final rule. The examples come from the report and from OPM’s responses to commenters.</p>
+          <noscript><p class="noscript">The sample register needs JavaScript. The rest of the guide reads without it.</p></noscript>
+          <div class="instrument">
+            <div class="pick" role="group" aria-label="Examples" id="rg-examples">
+              <button type="button" data-k="gap" aria-pressed="true">One rating level apart</button>
+              <button type="button" data-k="holds" aria-pressed="false">Where the credit holds</button>
+              <button type="button" data-k="accepted" aria-pressed="false">Outcomes OPM accepted</button>
+              <button type="button" data-k="gain" aria-pressed="false">Career-conditional veterans gain</button>
+              <button type="button" data-k="prob" aria-pressed="false">A veteran on probation</button>
+            </div>
+            <div class="note"><p id="rg-example-note" aria-live="polite"></p></div>
+            <p class="key" aria-label="Rating levels"><span><b>5</b>Outstanding, 7 points</span><span><b>4</b>Exceeds Fully Successful, 5 points</span><span><b>3</b>Fully Successful, 3 points</span><span><b>2</b>Level 2, 0 points</span></p>
+            <div class="editors" id="rg-editors"></div>
+            <div class="registers" aria-live="polite">
+              <div class="register">
+                <span class="label">Prior rules</span>
+                <h5>Register before September 2</h5>
+                <p class="how">Tenure group, then preference subgroup (AD, A, B), then years of service plus performance credit.</p>
+                <ol class="reglist" id="rg-old"></ol>
+              </div>
+              <div class="register">
+                <span class="label">Final rule</span>
+                <h5>Register from September 2</h5>
+                <p class="how">Score, then tenure subgroup, then length of service. Arrows show the change from the prior order.</p>
+                <ol class="reglist" id="rg-new"></ol>
+                <p class="excluded" id="rg-excluded" hidden></p>
+              </div>
+            </div>
+          </div>
+          <p class="source">Note: An illustration, not a determination of any employee’s retention standing. All four employees are assumed to hold
+          positions in the same competitive area and competitive level. Adjusted service under the prior rules adds the additional service credit
+          (20, 16, or 12 years for each rating at Level 5, 4, or 3, added together, divided by 3, and rounded up to a whole number) to years of service. The register
+          does not model Group III, ratings of Unacceptable, missing ratings, discretionary award credits, assignment rights, or exceptions such as
+          USERRA protections. Sources: ARA calculations using 85 Fed. Reg. at 81,841; 91 Fed. Reg. at 10,911-12; 5 C.F.R. §§ 351.202(d),
+          351.501(c), 351.503, 351.504(a).</p>
+          <div class="pager">
+            <button type="button" data-go="scoring"><span class="label">Previous</span>2. How the Score Is Calculated</button>
+            <button type="button" class="next" data-go="credit"><span class="label">Next</span>4. What the Credit Is Worth</button>
+          </div>
+        </section>
+
+        <!-- ================================================================ 4 -->
+        <section class="rg-panel" id="credit" role="tabpanel" aria-labelledby="tab-credit">
+          <h3><span class="no">4.</span>What the Credit Is Worth</h3>
+          <p class="lede">The credit is fixed, but the spread of ratings is not, so the practical value of preference depends on how agencies
+          rate. ARA modeled how often a veteran with three Fully Successful ratings would outrank nonveteran competitors under four rating
+          distributions. Choose one, or set your own.</p>
+          <div class="instrument">
+            <div class="controls">
+              <div class="ctl">
+                <span class="label" id="rg-sc-lbl">Rating distribution</span>
+                <div class="pick" role="group" aria-labelledby="rg-sc-lbl" id="rg-scenarios">
+                  <button type="button" data-k="A" aria-pressed="true">A. Before the cap</button>
+                  <button type="button" data-k="B" aria-pressed="false">B. Cap at its ceiling</button>
+                  <button type="button" data-k="C" aria-pressed="false">C. Tight distribution</button>
+                  <button type="button" data-k="D" aria-pressed="false">D. Pattern B</button>
+                  <button type="button" data-k="X" aria-pressed="false">Your own</button>
+                </div>
+              </div>
+              <div class="ctl">
+                <span class="label" id="rg-cr-lbl">Veterans’ credit</span>
+                <div class="seg" role="group" aria-labelledby="rg-cr-lbl" id="rg-credit" style="min-width:230px">
+                  <button type="button" data-cr="3" aria-pressed="true">3 points (A)</button>
+                  <button type="button" data-cr="5" aria-pressed="false">5 points (AD)</button>
+                </div>
+              </div>
+            </div>
+            <div class="note"><p id="rg-sc-note" aria-live="polite"></p></div>
+            <div class="custom" id="rg-custom" hidden>
+              <label for="rg-p5">Share rated Level 5: <span id="rg-p5v" class="num"></span><input type="range" id="rg-p5" min="0" max="98" step="1" value="20"></label>
+              <label for="rg-p4">Share rated Level 4: <span id="rg-p4v" class="num"></span><input type="range" id="rg-p4" min="0" max="98" step="1" value="20"></label>
+            </div>
+            <div class="distbar" id="rg-distbar"></div>
+            <div class="modelgrid">
+              <div class="chartwrap">
+                <p class="chart-title" id="rg-chart-title"></p>
+                <p class="legend" aria-hidden="true"><span><i class="sw-vet"></i>Veteran ranks ahead</span><span><i class="sw-tie"></i>Tied, counted as not ahead</span><span><i class="sw-non"></i>Nonveteran ranks ahead</span></p>
+                <div class="chart" id="rg-chart"></div>
+              </div>
+              <div class="readouts">
+                <div class="readout"><div class="big" id="rg-ro-share">22%</div><div class="lbl">of nonveterans are outranked by a veteran with three Fully Successful ratings</div></div>
+                <div class="readout"><div class="big" id="rg-ro-typ">76%</div><div class="lbl">chance that a typical veteran ranks ahead of a typical nonveteran</div></div>
+                <div class="readout old"><div class="big">100%</div><div class="lbl">under the prior rules, for a veteran rated acceptable in the same tenure group</div></div>
+              </div>
+            </div>
+          </div>
+          <p class="source">Figure 1. Source: ARA calculations, using the point values in 5 C.F.R. §§ 351.503(a), 351.504(a). Each employee’s three
+          ratings are drawn independently from the chosen distribution; veterans and nonveterans share it; all competitors are in the same tenure
+          group and competitive level; and 1 percent of ratings are Level 1. ARA found no public data on rating distributions by veteran status, so
+          the shared distribution is a simplification rather than an estimate.</p>
+
+          <p class="caption" id="t5">Table 3. Illustrative value of the veterans’ credit under four rating distributions</p>
+          <div class="table-scroll">
+            <table id="rg-table" aria-labelledby="t5">
+              <thead><tr><th scope="col" style="width:40%">Scenario (Levels 5 / 4 / 3)</th><th scope="col" class="n">Veteran with three Fully Successful ratings: share of nonveterans outranked, with 3 / 5 points</th><th scope="col" class="n">Typical veteran against typical nonveteran: chance of ranking ahead, with 3 / 5 points</th></tr></thead>
+              <tbody>
+                <tr data-sc="A" class="on"><td>A. Compressed, before the cap (30 / 30 / 39 percent)</td><td class="n">22 / 47 percent</td><td class="n">76 / 88 percent</td></tr>
+                <tr data-sc="B"><td>B. Cap at its ceiling, with ARA’s assumed split (15 / 25 / 59 percent)</td><td class="n">49 / 76 percent</td><td class="n">79 / 91 percent</td></tr>
+                <tr data-sc="C"><td>C. Tight distribution (7 / 13 / 79 percent)</td><td class="n">77 / 94 percent</td><td class="n">84 / 95 percent</td></tr>
+                <tr data-sc="D"><td>D. Pattern B (20 / none / 79 percent)</td><td class="n">52 / 90 percent</td><td class="n">70 / 94 percent</td></tr>
+                <tr><td>Prior rules, any distribution</td><td class="n">100 / 100 percent</td><td class="n">100 / 100 percent</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="source">Source: ARA calculations under the assumptions above. Outcomes under the prior rules assume both employees are in the same
+          tenure group. Ties, which occur in about 1 percent of comparisons or fewer, are counted as not ranking ahead.</p>
+          <div class="lead-list">
+            <p><b>Rating spread.</b> Under Pattern C, the credit counts for most when ratings cluster at Fully Successful and for least when they
+            spread across the top levels, so OPM’s standardized distribution and cap raise the practical value of preference, other things equal.
+            Pattern B is the exception: because one step up is worth 4 points, the 3-point credit gives a typical veteran the lowest chance of ranking
+            ahead in Scenario D.</p>
+            <p><b>Persistent ratings.</b> If employees receive the same rating every year, a Fully Successful veteran never outranks a nonveteran
+            with consistent Level 4 ratings, whatever the credit.</p>
+            <p><b>Timing.</b> Because the score draws on a four-year window, RIFs conducted in 2026 through 2028 will rely partly on ratings issued
+            before the cap took effect. In ARA’s judgment, the more a register depends on those earlier ratings, the better Scenario A serves as a
+            benchmark, and it is the scenario in which the credit protects Fully Successful veterans least.</p>
+          </div>
+          <div class="pager">
+            <button type="button" data-go="register"><span class="label">Previous</span>3. A Sample Retention Register</button>
+            <button type="button" class="next" data-go="affected"><span class="label">Next</span>5. Who Is Affected</button>
+          </div>
+        </section>
+
+        <!-- ================================================================ 5 -->
+        <section class="rg-panel" id="affected" role="tabpanel" aria-labelledby="tab-affected">
+          <h3><span class="no">5.</span>Who Is Affected</h3>
+          <p class="lede">RIFs were rare until 2025. The Partnership for Public Service reports that RIF separations never exceeded 300 in a
+          fiscal year during the preceding decade but that 10,436 employees were separated by RIF between January 20, 2025, and January 2026.</p>
+          <div class="figures">
+            <div class="fig"><div class="big">621,751</div><div class="lbl">veterans in the executive branch, fiscal year 2024</div><div class="ctx">27.4 percent of 2,267,091 employees. Of these, 545,352 had veterans’ preference.</div></div>
+            <div class="fig"><div class="big">262,385</div><div class="lbl">with a compensable service-connected disability of 30 percent or more</div><div class="ctx">11.6 percent of all employees and 42.2 percent of veterans. Those who are preference eligibles in a RIF receive the 5-point credit; a military retiree qualifies only under the conditions in 5 C.F.R. § 351.504(b).</div></div>
+            <div class="fig"><div class="big">278,359</div><div class="lbl">preference-eligible veterans at the Department of Defense</div><div class="ctx">38.1 percent of DoD’s workforce and about half of all employees with veterans’ preference. Counting veterans without preference, 314,311.</div></div>
+            <div class="fig"><div class="big">103,601</div><div class="lbl">preference-eligible veterans at the Department of Veterans Affairs</div><div class="ctx">More than any agency other than DoD; 21.5 percent of VA’s workforce. Counting veterans without preference, 122,094.</div></div>
+            <div class="fig"><div class="big">47,634</div><div class="lbl">preference-eligible veterans hired in fiscal year 2024</div><div class="ctx">Among 56,318 veterans hired. Any still serving an initial probationary period or a trial period are not ranked in a RIF (5 C.F.R. § 351.202(d)).</div></div>
+          </div>
+          <p class="source">Sources: OPM 2026b, i, 4-6, 19 (Table 5; OPM’s tables label the Department of Defense “DOW”); Partnership for Public Service 2026b.</p>
+          <div class="groups">
+            <div class="group"><span class="label">Change is largest</span><b>Veterans outside DoD</b><p>DoD has ranked employees by rating of record, tenure group, average score, veterans’ preference, and service computation date since January 2017 (91 Fed. Reg. at 49,188), so preference there already works mainly as a tie-breaker after ratings (DoD 2021, paras. 1.2.a, 3.3.c, 3.4). The change in method falls chiefly on the roughly 267,000 preference-eligible veterans at other agencies (OPM 2026b, 19).</p></div>
+            <div class="group"><span class="label">Lose the most among those ranked</span><b>Long-serving veterans</b><p>Length of service, which compounded their preference under the prior rules, is now only a tie-breaker, so a few rating points can place a newer nonveteran ahead.</p></div>
+            <div class="group"><span class="label">Removed from competition</span><b>Veterans on probation</b><p>A veteran serving an initial probationary period is no longer a competing employee (91 Fed. Reg. at 49,178-79). Whether that helps or hurts depends on how the agency uses its discretion to keep or release probationers.</p></div>
+            <div class="group"><span class="label">Can gain</span><b>Career-conditional veterans</b><p>Veterans who have completed probation but are not yet career employees (typically, OPM notes, those with more than 3 years of creditable service; 91 Fed. Reg. at 10,907) no longer sit below every career nonveteran and can outrank one with weaker ratings (91 Fed. Reg. at 49,183).</p></div>
+          </div>
+          <div class="pager">
+            <button type="button" data-go="credit"><span class="label">Previous</span>4. What the Credit Is Worth</button>
+            <button type="button" class="next" data-go="debate"><span class="label">Next</span>6. Both Sides of the Question</button>
+          </div>
+        </section>
+
+        <!-- ================================================================ 6 -->
+        <section class="rg-panel" id="debate" role="tabpanel" aria-labelledby="tab-debate">
+          <h3><span class="no">6.</span>Both Sides of the Question</h3>
+          <p class="lede">The central legal question is whether a fixed credit that a higher-rated nonveteran can overcome satisfies the statute’s
+          command that a qualifying preference eligible “is entitled to be retained in preference to other competing employees”
+          (5 U.S.C. § 3502(c)).</p>
+          <div class="sides">
+            <div class="side">
+              <span class="label">Supporters</span>
+              <h5>Performance should count for more</h5>
+              <p>OPM supported the change, as did the Office of Special Counsel (91 Fed. Reg. at 49,184), the Departments of Agriculture and Labor
+              (USDA 2026, 1; DOL 2026, 4), and FGA Action. The Niskanen Center supported it with conditions (Niskanen Center 2026, 4-5). FGA Action
+              argued that performance has been “systematically underweighted” (FGA Action 2026, 2). The Niskanen Center said that because the old
+              rules retain staff by tenure, length of service, and veterans’ preference, RIFs are “often disproportionately targeted at newer
+              employees that have the most marketable skills” (Niskanen Center 2026, 4). OPM reads the statute as granting “a meaningful retention
+              preference, not a categorical right to be retained ahead of every non-veteran regardless of performance” (91 Fed. Reg. at 49,182), and
+              calls its credit</p>
+              <p class="quote">“materially stronger than hiring preference as a scoring weight” (91 Fed. Reg. at 49,181).</p>
+            </div>
+            <div class="side">
+              <span class="label">Critics</span>
+              <h5>Preference is an entitlement</h5>
+              <p>Federal employee unions and the National Employment Lawyers Association argue that the statute protects any veteran whose
+              performance is acceptable (AFGE and AFSCME 2026, 2; NELA 2026, 1-2), a reading that draws support from <i>Hilton v. Sullivan</i>,
+              334 U.S. 323 (1948), which construed the retention preference in section 12 of the Veterans’ Preference Act of 1944. Disabled American
+              Veterans said the statute’s four factors reflect “a deliberate balance,” “ensuring that no single factor dominates to the detriment of
+              the others,” and called preference</p>
+              <p class="quote">“a substantive statutory entitlement” (DAV 2026b, 2).</p>
+              <p>DAV warned that the rule would reduce preference to “a largely illusory consideration” (DAV 2026b, 3), a characterization OPM
+              called “not accurate” (91 Fed. Reg. at 49,182).
+              The Veterans of Foreign Wars supported modernization but warned against making preference “a secondary, point-based consideration”
+              (VFW 2026, 1-2).</p>
+            </div>
+            <div class="side">
+              <span class="label">Research record</span>
+              <h5>A caution for both sides</h5>
+              <p>GAO found that employees without preference were about two to seven times as likely to lose their jobs at three military
+              installations in fiscal year 1991 (GAO 1998, 1). Reviewing RIFs at three DoD installations, it also found that women and minorities
+              were disproportionately separated, “in part because they ranked lower than white males in one of three retention factors, including
+              veterans’ preference” (GAO 1996, 2).</p>
+              <p>In the report’s reading, the categorical preference protected veterans substantially and shifted RIF losses toward nonveterans, while a
+              weighted preference spreads losses more evenly but makes outcomes depend on the accuracy of performance ratings.</p>
+            </div>
+          </div>
+          <p class="lede" style="margin-top:30px">ARA presents both sides and takes no position on whether the rule is wise or lawful.</p>
+          <div class="pager">
+            <button type="button" data-go="affected"><span class="label">Previous</span>5. Who Is Affected</button>
+            <button type="button" class="next" data-go="status"><span class="label">Next</span>7. Where Things Stand</button>
+          </div>
+        </section>
+
+        <!-- ================================================================ 7 -->
+        <section class="rg-panel" id="status" role="tabpanel" aria-labelledby="tab-status">
+          <h3><span class="no">7.</span>Where Things Stand</h3>
+          <p class="lede">Status as of November 1, 2026.</p>
+          <ol class="timeline">
+            <li><span class="d">December 17, 2020</span><span class="e">OPM proposes ranking employees by performance within each tenure group, ahead of veterans’ preference (85 Fed. Reg. 81,839). The proposal is not adopted; in 2026 OPM considers reissuing it and rejects that option as too narrow (91 Fed. Reg. at 49,212).</span></li>
+            <li><span class="d">March 5, 2026</span><span class="e">OPM proposes the current rule (91 Fed. Reg. 10,904) and later receives 721 unique comments.</span></li>
+            <li><span class="d">July 7, 2026</span><span class="e">OPM publishes the performance appraisal rule, which takes effect August 6, 2026, and authorizes OPM to set a standardized distribution of ratings (91 Fed. Reg. 41,521).</span></li>
+            <li><span class="d">August 3, 2026</span><span class="e">The final RIF rule and the RIF appeals rule are published. For RIF notices issued on or after September 2, appeals move from the MSPB to OPM.</span></li>
+            <li><span class="d">August 24, 2026</span><span class="e">Unions sue OPM over the appraisal and suitability rules; the complaint cites the RIF rule only as context.</span></li>
+            <li><span class="d">September 2, 2026</span><span class="e">The RIF rule and the appeals rule take effect for RIF notices issued on or after this date.</span></li>
+            <li><span class="d">September 21, 2026</span><span class="e">OPM caps Level 4 and Level 5 ratings at a combined 40 percent for fiscal year 2026, “a ceiling, not a target,” for career Senior Executive Service members, career senior professionals, and career and career-conditional General Schedule employees. Wage Grade employees, offices of inspectors general, and some other groups are excluded, and bargaining agreements that bar forced distributions remain in force until they expire (OPM 2026c, 2-4).</span></li>
+            <li class="ahead"><span class="d">November 18, 2026</span><span class="e">A rule on administrative leave, including leave during a RIF notice period, takes effect (91 Fed. Reg. 65,924).</span></li>
+            <li class="ahead"><span class="d">January 1, 2027</span><span class="e">Agencies must use the new summary-level rating patterns (91 Fed. Reg. 41,521).</span></li>
+          </ol>
+
+          <h4>What ARA will watch</h4>
+          <div class="watch">
+            <p><b>Litigation over the rule.</b> A facial challenge to the rule or the appeals rule, or a VEOA appeal raising § 3502(c), would test the central legal question and the reach of the bar on judicial review.</p>
+            <p><b>Rating distributions.</b> OPM’s fiscal year 2026 results, the cap it sets for fiscal year 2027, and agencies’ choice of summary patterns will set the practical value of the credit.</p>
+            <p><b>RIF volume and composition.</b> Data on separations by preference status would show whether the modeled effects appear in practice.</p>
+            <p><b>DoD alignment.</b> Whether DoD revises its instruction to conform to the new part 351 will determine how its roughly 278,000 preference-eligible veterans are ranked.</p>
+            <p><b>Congressional action.</b> Appropriations riders or legislation on retention preference or RIF appeal rights would change the legal baseline.</p>
+            <p><b>OPM appeal decisions.</b> The first OPM decisions in RIF appeals brought by preference eligibles will show how OPM applies § 3502(c).</p>
+          </div>
+
+          <h4>If you have veterans’ preference</h4>
+          <ol class="steps">
+            <li><div><b>Check your ratings of record.</b><p>Confirm that all of your ratings from the past four years appear in your personnel records. Missing ratings are filled in by formula, and your three most recent ratings now set most of your standing.</p></div></li>
+            <li><div><b>Check your preference status.</b><p>Confirm that your records show the correct veterans’ preference. Only a compensable service-connected disability of 30 percent or more earns the 5-point credit; other preference eligibles receive 3. A military retiree counts as a preference eligible in a RIF only under the conditions in 5 C.F.R. § 351.504(b).</p></div></li>
+            <li><div><b>Know where appeals go.</b><p>For RIF notices issued on or after September 2, 2026, appeals go to OPM rather than the MSPB, and OPM’s rule bars grievances over RIFs and court review of its decisions (91 Fed. Reg. at 49,230, 49,242-43).</p></div></li>
+            <li><div><b>Know the complaint deadline.</b><p>A preference eligible who believes a RIF violated a veterans’ preference law or regulation may file a complaint with the Secretary of Labor within 60 days after the date of the alleged violation. If the Secretary has not resolved the complaint within 60 days of filing, the complainant may appeal to the MSPB, no later than 15 days after receiving the Secretary’s written notice of the results. Once an MSPB appeal has been pending for 120 days without a decision on the merits, the complainant may instead file suit in federal district court (5 U.S.C. §§ 3330a(a), (d), 3330b).</p></div></li>
+          </ol>
+          <h4>Official resources</h4>
+          <ul class="resources">
+            <li><a href="https://www.opm.gov/policy-data-oversight/workforce-restructuring/reductions-in-force-rif" target="_blank" rel="noopener">Office of Personnel Management, Reductions in Force (RIF)<span class="sr-only"> (opens in a new window)</span></a></li>
+            <li><a href="https://webapps.dol.gov/elaws/vets/vetpref/vetspref.htm" target="_blank" rel="noopener">U.S. Department of Labor, Veterans’ Preference Advisor<span class="sr-only"> (opens in a new window)</span></a></li>
+            <li><a href="https://www.federalregister.gov/documents/2026/08/03/2026-15665/reduction-in-force" target="_blank" rel="noopener">Reduction in Force, 91 Fed. Reg. 49,178 (Aug. 3, 2026)<span class="sr-only"> (opens in a new window)</span></a></li>
+            <li><a href="https://www.federalregister.gov/documents/2026/08/03/2026-15666/reduction-in-force-appeals" target="_blank" rel="noopener">Reduction in Force Appeals, 91 Fed. Reg. 49,230 (Aug. 3, 2026)<span class="sr-only"> (opens in a new window)</span></a></li>
+          </ul>
+          <div class="pager">
+            <button type="button" data-go="debate"><span class="label">Previous</span>6. Both Sides of the Question</button>
+            <button type="button" class="next" data-go="sources"><span class="label">Next</span>8. Sources</button>
+          </div>
+        </section>
+
+        <!-- ================================================================ 8 -->
+        <section class="rg-panel" id="sources" role="tabpanel" aria-labelledby="tab-sources">
+          <h3><span class="no">8.</span>Sources</h3>
+          <p class="lede">Statutes, regulations, Federal Register documents, and cases are cited in full where they appear. Sources cited by author
+          and year are listed below; the complete reference list is in the report’s
+          <a href="/veterans-preference-rif/references/">references</a> (PDF).</p>
+          <div class="refs" id="rg-refs">
+            <p>AFGE and AFSCME (American Federation of Government Employees and American Federation of State, County and Municipal Employees). 2026. “Comments by AFGE and AFSCME Concerning OPM’s Proposed Changes to Established RIF Procedures.” Letter to the Office of Personnel Management, May 4. Docket OPM-2025-0107, Comment 0680. <a href="https://www.regulations.gov/comment/OPM-2025-0107-0680" target="_blank" rel="noopener">https://www.regulations.gov/comment/OPM-2025-0107-0680<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>DAV (Disabled American Veterans). 2026b. “Response of DAV (Disabled American Veterans) to the Office of Personnel Management’s Proposed Rule on Reduction in Force Procedures.” Letter to the Office of Personnel Management signed by Scott Hope, National Service Director, April 13. Docket OPM-2025-0107, Comment 0157. <a href="https://www.regulations.gov/comment/OPM-2025-0107-0157" target="_blank" rel="noopener">https://www.regulations.gov/comment/OPM-2025-0107-0157<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>DoD (U.S. Department of Defense). 2021. <i>DoD Civilian Personnel Management System: Reduction in Force</i>. DoD Instruction 1400.25, Volume 351, June 24. <a href="https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/140025/140025_V351.PDF" target="_blank" rel="noopener">https://www.esd.whs.mil/Portals/54/Documents/DD/issuances/140025/140025_V351.PDF<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>DOL (U.S. Department of Labor). 2026. “Comment of the Department of Labor in Support of OPM’s Proposed Rule Reduction in Force.” Letter to the Office of Personnel Management, May 4. Docket OPM-2025-0107, Comment 0720. <a href="https://www.regulations.gov/comment/OPM-2025-0107-0720" target="_blank" rel="noopener">https://www.regulations.gov/comment/OPM-2025-0107-0720<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>FGA Action. 2026. “Comment on OPM-2025-0107.” Comment by David Craig, Visiting Fellow, submitted to the Office of Personnel Management, May 4. Docket OPM-2025-0107, Comment 0673. <a href="https://www.regulations.gov/comment/OPM-2025-0107-0673" target="_blank" rel="noopener">https://www.regulations.gov/comment/OPM-2025-0107-0673<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>GAO (U.S. General Accounting Office). 1996. <i>Veterans’ Preference: Data on Employment of Veterans</i>. GAO/GGD-96-13. February. <a href="https://www.gao.gov/products/ggd-96-13" target="_blank" rel="noopener">https://www.gao.gov/products/ggd-96-13<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>GAO (U.S. General Accounting Office). 1998. <i>The Public Service: Veterans’ Preference in Hiring and Reductions-in-Force</i>. Statement of Michael Brostek before the Senate Committee on Veterans’ Affairs. GAO/T-GGD-98-88. March 24. <a href="https://www.gao.gov/products/t-ggd-98-88" target="_blank" rel="noopener">https://www.gao.gov/products/t-ggd-98-88<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>NELA (National Employment Lawyers Association). 2026. Comment on the notice of proposed rulemaking “Reduction in Force,” RIN 3206-AO86. Letter to the Office of Personnel Management, May 4. Docket OPM-2025-0107, Comment 0660. <a href="https://www.regulations.gov/comment/OPM-2025-0107-0660" target="_blank" rel="noopener">https://www.regulations.gov/comment/OPM-2025-0107-0660<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>Niskanen Center. 2026. Comment on RIN 3206-AO86, “Reduction in Force.” Letter to Director Scott Kupor, May 4. Docket OPM-2025-0107, Comment 0687. <a href="https://www.regulations.gov/comment/OPM-2025-0107-0687" target="_blank" rel="noopener">https://www.regulations.gov/comment/OPM-2025-0107-0687<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>OPM (U.S. Office of Personnel Management). 2026b. <i>FY 2024 Employment of Veterans and Military-Connected Spouses and Survivors in the Federal Executive Branch Report</i>. January. <a href="https://www.opm.gov/fedshirevets/hiring-officials/veteran-employment-data/fy-2024-employment-of-veterans-and-military-connected-spouses-and-survivors-in-the-federal-executive-branch-report.pdf" target="_blank" rel="noopener">https://www.opm.gov/fedshirevets/hiring-officials/veteran-employment-data/fy-2024-employment-of-veterans-and-military-connected-spouses-and-survivors-in-the-federal-executive-branch-report.pdf<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>OPM (U.S. Office of Personnel Management). 2026c. “FY 2026 Standardized Distribution of Rating Levels and FY 2026 Performance Awards Guidance for Federal Employees.” Memorandum from Director Scott Kupor to heads and acting heads of departments and agencies, September 21. <a href="https://www.opm.gov/chcoc/latest-memos/fy-2026-standardized-distribution-of-rating-levels-and-fy-2026-performance-awards-guidance-for-federal-employees.pdf" target="_blank" rel="noopener">https://www.opm.gov/chcoc/latest-memos/fy-2026-standardized-distribution-of-rating-levels-and-fy-2026-performance-awards-guidance-for-federal-employees.pdf<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>Partnership for Public Service. 2026b. “The Federal Workforce One Year into the Trump Administration.” Fed Figures analysis of federal workforce data as of January 2026, April 16. <a href="https://ourpublicservice.org/know-the-facts/resource-library/reports/the-federal-workforce-one-year-into-the-trump-administration" target="_blank" rel="noopener">https://ourpublicservice.org/know-the-facts/resource-library/reports/the-federal-workforce-one-year-into-the-trump-administration<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>SEA (Senior Executives Association). 2026. “Comments on Proposed Rule: Reduction in Force (RIN 3206-AO86; Docket ID: OPM-2025-0107).” Undated letter to the Office of Personnel Management. Docket OPM-2025-0107, Comment 0683. <a href="https://www.regulations.gov/comment/OPM-2025-0107-0683" target="_blank" rel="noopener">https://www.regulations.gov/comment/OPM-2025-0107-0683<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>USDA (U.S. Department of Agriculture). 2026. Comment on OPM’s proposed rules on reduction-in-force regulations. Letter from the Office of the Deputy Secretary to Director Scott Kupor, May 1. Docket OPM-2025-0107, Comment 0719. <a href="https://www.regulations.gov/comment/OPM-2025-0107-0719" target="_blank" rel="noopener">https://www.regulations.gov/comment/OPM-2025-0107-0719<span class="sr-only"> (opens in a new window)</span></a>.</p>
+            <p>VFW (Veterans of Foreign Wars). 2026. Comment on the proposed rule “Reduction in Force.” Letter signed by Michael S. Figlioli, Chief of Staff, VFW Washington Office, May 4. Docket OPM-2025-0107, Comment 0676. <a href="https://www.regulations.gov/comment/OPM-2025-0107-0676" target="_blank" rel="noopener">https://www.regulations.gov/comment/OPM-2025-0107-0676<span class="sr-only"> (opens in a new window)</span></a>.</p>
+          </div>
+          <div class="about">
+            <span class="label">About this guide</span>
+            <p>Agard Research Associates Inc. (ARA) is a nonpartisan, nonprofit research institute in New Jersey. This guide is based on the ARA
+            policy analysis <a href="/veterans-preference-rif/report/"><i>Veterans’ Preference in Federal Reductions in Force</i></a> (November 2026) by Alyssa I. Agard.
+            The <a href="/veterans-preference-rif/report/">full report</a>, a <a href="/veterans-preference-rif/summary/">three-page summary</a>,
+            and the <a href="/veterans-preference-rif/references/">complete reference list</a> are available as PDFs. Every statement in it was
+            checked against the source documents cited. All statements of legal and regulatory status are current as of November 1, 2026.
+            Version 1.0, November 2026.</p>
+          </div>
+          <div class="pager">
+            <button type="button" data-go="status"><span class="label">Previous</span>7. Where Things Stand</button>
+            <button type="button" class="next" data-go="overview"><span class="label">Back to start</span>1. What the Rule Changes</button>
+          </div>
+        </section>
+      </article>
+  <p class="embed-foot">&copy; 2026 Agard Research Associates Inc. Licensed under CC BY-NC-ND 4.0. This guide is also available at
+  <a href="https://library.agardresearchassociates.org/veterans-preference-rif/">library.agardresearchassociates.org/veterans-preference-rif</a>.</p>
+</div>
+<script src="/veterans-preference-rif/guide.js"></script>
+<script>
+/* Links open in a new tab so the embedded guide stays in place. */
+(function () {
+  Array.prototype.forEach.call(document.querySelectorAll("a[href]"), function (a) {
+    if (a.getAttribute("href").charAt(0) === "#") return;
+    a.target = "_blank"; a.rel = "noopener";
+  });
+})();
+/* Full screen: uses the browser's full-screen mode where the frame allows it; otherwise opens this page in a new tab. */
+(function () {
+  var b = document.getElementById("rg-fs"); if (!b) return;
+  var d = document.documentElement, framed = window.self !== window.top;
+  var req = d.requestFullscreen || d.webkitRequestFullscreen;
+  var enabled = !!(req && (document.fullscreenEnabled || document.webkitFullscreenEnabled));
+  if (!enabled && !framed) return;
+  b.hidden = false;
+  function isFs() { return !!(document.fullscreenElement || document.webkitFullscreenElement); }
+  function label() {
+    var on = isFs();
+    b.querySelector(".txt").textContent = on ? "Exit full screen" : (enabled ? "Full screen" : "Open full page");
+    b.setAttribute("aria-pressed", String(on));
+    b.setAttribute("aria-label", on ? "Exit full screen" : (enabled ? "Show the guide full screen" : "Open the guide in a new tab"));
+    b.title = b.getAttribute("aria-label");
+  }
+  function newTab() { window.open(location.href, "_blank", "noopener"); }
+  b.addEventListener("click", function () {
+    if (isFs()) { (document.exitFullscreen || document.webkitExitFullscreen).call(document); return; }
+    if (!enabled) { newTab(); return; }
+    try { var p = req.call(d); if (p && p.catch) p.catch(newTab); } catch (e) { newTab(); }
+  });
+  document.addEventListener("fullscreenchange", label); document.addEventListener("webkitfullscreenchange", label);
+  label();
+})();
+</script>
 </body>
 </html>
