@@ -1,11 +1,7 @@
 /* Veterans' Preference in Federal Reductions in Force: interactive guide.
-   Times New Roman throughout, ARA green ink, sage panels, hairline rules.
+   Times New Roman inside the guide only (the site chrome keeps its sans serif), ARA green ink, sage panels, hairline rules.
    The page follows the reader's light or dark setting and can be switched with the
    button in the section bar; the choice is kept in this browser only. */
-
-/* Times New Roman is the face for this whole page, site header and footer included. */
-:root { --sans: "Times New Roman", Times, "Liberation Serif", serif; }
-body { font-size: 17px; }
 
 html {
   --rg-page: #FFFFFF;
