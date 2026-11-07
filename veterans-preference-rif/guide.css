@@ -1,0 +1,163 @@
+/* Veterans' Preference in Federal Reductions in Force: interactive guide.
+   Set in the house style of ARA policy analyses: Times New Roman text, small capitals
+   for table and figure captions, hairline rules, and the sage panel used for the bottom line. */
+
+.rif-guide {
+  --g-ink: #212B1F;
+  --g-text: #1A1A1A;
+  --g-body: #2E2E2E;
+  --g-muted: #5F5F5F;
+  --g-rule: #DEDEDE;
+  --g-rule-dark: #212B1F;
+  --g-sage: #EEF1ED;
+  --g-sage-2: #E1E7DE;
+  --g-link: #103A0A;
+  --g-vet: #2B6E27;
+  --g-non: #C8783A;
+  --g-tie: #8A9187;
+  --g-serif: "Times New Roman", Times, "Liberation Serif", serif;
+  --g-caps: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: var(--g-serif);
+  color: var(--g-text);
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 780px;
+  margin: 0 auto;
+}
+.rif-guide *, .rif-guide *::before, .rif-guide *::after { box-sizing: border-box; }
+.rif-guide [hidden] { display: none !important; }
+.rif-guide p { margin: 0 0 14px; color: var(--g-body); }
+.rif-guide a { color: var(--g-link); text-underline-offset: 2px; }
+.rif-guide i, .rif-guide em { font-style: italic; }
+.rif-guide .cite { white-space: normal; }
+
+/* headings follow the report: numbered section titles, quiet weight */
+.rif-guide h3 {
+  font-family: var(--g-serif); font-weight: 400; color: var(--g-ink);
+  font-size: 28px; line-height: 1.2; margin: 56px 0 18px; scroll-margin-top: 16px;
+}
+.rif-guide h3 .no { margin-right: 10px; }
+.rif-guide h4 {
+  font-family: var(--g-caps); font-weight: 400; color: var(--g-ink);
+  font-size: 12px; letter-spacing: 0.16em; text-transform: uppercase; margin: 34px 0 12px;
+}
+
+/* the bottom line, as in ARA summaries */
+.rif-guide .bottom-line { background: var(--g-sage); border-top: 1px solid var(--g-rule-dark); padding: 18px 24px 8px; margin: 0 0 30px; }
+.rif-guide .bottom-line .label, .rif-guide .about .label {
+  display: block; font-family: var(--g-caps); font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--g-ink); margin-bottom: 10px;
+}
+.rif-guide .bottom-line p { font-size: 17px; }
+
+/* contents */
+.rif-guide .contents { border-top: 1px solid var(--g-rule); border-bottom: 1px solid var(--g-rule); padding: 14px 0 12px; margin: 0 0 8px; }
+.rif-guide .contents .label { font-family: var(--g-caps); font-size: 11.5px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--g-ink); display: block; margin-bottom: 8px; }
+.rif-guide .contents ol { margin: 0; padding: 0; list-style: none; columns: 2; column-gap: 32px; }
+.rif-guide .contents li { font-size: 16px; margin: 0 0 4px; break-inside: avoid; }
+.rif-guide .contents a { text-decoration: none; color: var(--g-text); }
+.rif-guide .contents a:hover { text-decoration: underline; }
+
+/* bold-lead paragraphs separated by hairlines, as in the report's Section 2.2 */
+.rif-guide .lead-list { margin: 8px 0 18px; }
+.rif-guide .lead-list p { border-top: 1px solid var(--g-rule); padding-top: 12px; margin: 0 0 12px; }
+.rif-guide .lead-list b { color: var(--g-text); }
+
+/* tables and figures */
+.rif-guide .caption {
+  font-family: var(--g-caps); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--g-ink);
+  margin: 30px 0 10px; line-height: 1.5;
+}
+.rif-guide .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.rif-guide table { width: 100%; border-collapse: collapse; font-size: 16px; line-height: 1.45; }
+.rif-guide th {
+  text-align: left; vertical-align: bottom; font-family: var(--g-serif); font-weight: 700; font-size: 12.5px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--g-ink); border-bottom: 1px solid var(--g-rule-dark); padding: 0 14px 9px 0;
+}
+.rif-guide td { vertical-align: top; border-bottom: 1px solid var(--g-rule); padding: 9px 14px 9px 0; color: var(--g-body); }
+.rif-guide th:last-child, .rif-guide td:last-child { padding-right: 0; }
+.rif-guide td.n, .rif-guide th.n { text-align: right; font-variant-numeric: tabular-nums lining-nums; }
+.rif-guide td.n { white-space: nowrap; }
+.rif-guide #rif-table5 th:first-child { width: 40%; }
+.rif-guide tr.on td { background: var(--g-sage); }
+.rif-guide .source { font-size: 14px; color: var(--g-muted); margin: 10px 0 0; line-height: 1.5; }
+
+/* the worksheet: a plain form, like a register worksheet */
+.rif-guide .controls { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 14px 28px; margin: 18px 0 6px; }
+.rif-guide label.ctl { display: grid; gap: 4px; font-size: 15px; color: var(--g-body); }
+.rif-guide select, .rif-guide input[type="number"] {
+  font-family: var(--g-serif); font-size: 16px; color: var(--g-text); background: #FFF;
+  border: 1px solid #9DA39A; border-radius: 0; padding: 5px 6px; min-height: 34px;
+}
+.rif-guide select:focus-visible, .rif-guide input:focus-visible, .rif-guide .chart rect:focus-visible { outline: 2px solid #4B6A42; outline-offset: 1px; }
+.rif-guide input[type="number"] { width: 4.5em; font-variant-numeric: tabular-nums lining-nums; }
+.rif-guide fieldset { border: 0; margin: 0; padding: 0; }
+.rif-guide legend { font-size: 15px; color: var(--g-body); padding: 0; margin-bottom: 4px; }
+.rif-guide .radios { display: flex; gap: 18px; font-size: 16px; min-height: 34px; align-items: center; }
+.rif-guide .radios label { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+.rif-guide input[type="radio"] { accent-color: var(--g-ink); width: 16px; height: 16px; margin: 0; }
+.rif-guide .example-note { border-left: 2px solid var(--g-ink); padding: 2px 0 2px 16px; margin: 16px 0 6px; }
+.rif-guide .example-note p { font-size: 17px; margin: 0; }
+.rif-guide table.worksheet { min-width: 640px; }
+.rif-guide table.worksheet th { white-space: nowrap; }
+.rif-guide table.worksheet td { padding-top: 7px; padding-bottom: 7px; vertical-align: middle; }
+.rif-guide table.worksheet input[type="text"] {
+  font-family: var(--g-serif); font-size: 16px; color: var(--g-text); width: 100%; min-width: 11em;
+  border: 0; border-bottom: 1px dotted #9DA39A; background: transparent; padding: 3px 0;
+}
+.rif-guide .registers { display: grid; grid-template-columns: 1fr; gap: 0; }
+.rif-guide .registers > div { min-width: 0; }
+.rif-guide .registers table { font-size: 15.5px; min-width: 470px; }
+.rif-guide .rank { font-variant-numeric: tabular-nums lining-nums; width: 2.4em; }
+.rif-guide .change-up { color: var(--g-vet); }
+.rif-guide .change-down { color: #9A5520; }
+.rif-guide tr.excluded td { color: var(--g-muted); font-style: italic; }
+
+/* figure */
+.rif-guide .figure { margin: 6px 0 0; }
+.rif-guide .key { display: flex; flex-wrap: wrap; gap: 4px 20px; font-size: 15px; color: var(--g-body); margin: 0 0 6px; }
+.rif-guide .key i { display: inline-block; width: 12px; height: 12px; margin-right: 6px; vertical-align: -1px; font-style: normal; }
+.rif-guide .chart { position: relative; width: 100%; }
+.rif-guide .chart svg { display: block; width: 100%; height: auto; overflow: visible; }
+.rif-guide .g-grid { stroke: #E6E6E6; stroke-width: 1; }
+.rif-guide .g-axis { stroke: var(--g-ink); stroke-width: 1; }
+.rif-guide .g-tick { fill: var(--g-muted); font-family: var(--g-serif); font-size: 13px; font-variant-numeric: lining-nums; }
+.rif-guide .g-bar-vet { fill: var(--g-vet); }
+.rif-guide .g-bar-non { fill: var(--g-non); }
+.rif-guide .g-bar-tie { fill: url(#rif-hatch); stroke: var(--g-tie); stroke-width: 1; }
+.rif-guide .g-hatch-bg { fill: #FFFFFF; }
+.rif-guide .g-hatch-line { fill: var(--g-tie); }
+.rif-guide .g-marker { stroke: var(--g-ink); stroke-width: 1.5; }
+.rif-guide .g-mlabel { fill: var(--g-ink); font-family: var(--g-serif); font-size: 14px; font-style: italic; }
+.rif-guide .hit { fill: transparent; }
+.rif-guide .tip {
+  position: absolute; pointer-events: none; background: #FFFFFF; color: var(--g-text); border: 1px solid var(--g-ink);
+  font-size: 14px; line-height: 1.4; padding: 6px 9px; max-width: 220px; transform: translate(-50%, calc(-100% - 10px));
+}
+.rif-guide .result { font-size: 17px; background: var(--g-sage); padding: 12px 16px; margin: 16px 0 0; }
+
+/* figures list, as in "By the numbers" */
+.rif-guide table.numbers td { padding-top: 10px; padding-bottom: 10px; }
+.rif-guide table.numbers td.fig { width: 150px; font-size: 26px; line-height: 1.1; color: var(--g-ink); font-variant-numeric: lining-nums; white-space: nowrap; }
+.rif-guide table.numbers b { color: var(--g-text); }
+
+.rif-guide ul.resources { margin: 6px 0 0; padding-left: 20px; }
+.rif-guide ul.resources li { margin-bottom: 6px; color: var(--g-body); }
+
+.rif-guide .refs p { font-size: 15px; line-height: 1.5; padding-left: 28px; text-indent: -28px; margin: 0 0 10px; overflow-wrap: anywhere; }
+.rif-guide .about { background: var(--g-sage); padding: 16px 22px 6px; margin-top: 48px; font-size: 15.5px; }
+.rif-guide .about p { font-size: 15.5px; }
+.rif-guide .noscript { border: 1px solid var(--g-rule); padding: 10px 14px; font-size: 16px; }
+
+@media (max-width: 720px) {
+  .rif-guide { font-size: 16.5px; }
+  .rif-guide h3 { font-size: 23px; margin-top: 42px; }
+  .rif-guide .bottom-line { padding: 14px 16px 4px; }
+  .rif-guide .bottom-line p { font-size: 16px; }
+  .rif-guide .contents ol { columns: 1; }
+  .rif-guide table { font-size: 14.5px; }
+  .rif-guide th { font-size: 11.5px; }
+  .rif-guide .registers table { font-size: 14.5px; }
+  .rif-guide table.numbers td.fig { width: 108px; font-size: 21px; }
+  .rif-guide .example-note p, .rif-guide .result { font-size: 16px; }
+  .rif-guide .controls { gap: 12px 18px; }
+}
