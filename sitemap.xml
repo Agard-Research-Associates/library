@@ -2,68 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://library.agardresearchassociates.org/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/</loc>
-    <lastmod>2026-11-07</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/report/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <loc>https://library.agardresearchassociates.org/fppa/presentation-en.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/summary/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <loc>https://library.agardresearchassociates.org/fppa/presentation-es.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/references/</loc>
-    <lastmod>2026-11-07</lastmod>
+    <loc>https://library.agardresearchassociates.org/fppa/references.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/report/veterans-preference-rif-policy-analysis-v1.0.pdf</loc>
-    <lastmod>2026-11-07</lastmod>
+    <loc>https://library.agardresearchassociates.org/fppa/report.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/summary/veterans-preference-rif-summary-en.pdf</loc>
-    <lastmod>2026-11-07</lastmod>
+    <loc>https://library.agardresearchassociates.org/fppa/summary-en.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/references/veterans-preference-rif-references-v1.0.pdf</loc>
-    <lastmod>2026-11-07</lastmod>
+    <loc>https://library.agardresearchassociates.org/fppa/summary-es.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://library.agardresearchassociates.org/nonprofit-transparency/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/nonprofit-transparency/nonprofit-transparency-annotated-bibliography.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/nonprofit-transparency/nonprofit-transparency-workshop-presentation.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://library.agardresearchassociates.org/public-service-transition/</loc>
-    <lastmod>2026-11-14</lastmod>
+    <lastmod>2026-11-15</lastmod>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://library.agardresearchassociates.org/public-service-transition/resume-and-cv-guide.pdf</loc>
-    <lastmod>2026-11-14</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://library.agardresearchassociates.org/public-service-transition/skills-translation-worksheet.pdf</loc>
-    <lastmod>2026-11-14</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://library.agardresearchassociates.org/public-service-transition/resume-template.pdf</loc>
-    <lastmod>2026-11-14</lastmod>
-    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://library.agardresearchassociates.org/public-service-transition/cover-letter-template.pdf</loc>
@@ -86,7 +76,22 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://library.agardresearchassociates.org/public-service-transition/transition-checklist-veterans.pdf</loc>
+    <loc>https://library.agardresearchassociates.org/public-service-transition/referral-guide.pdf</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/public-service-transition/resume-and-cv-guide.pdf</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/public-service-transition/resume-template.pdf</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/public-service-transition/skills-translation-worksheet.pdf</loc>
     <lastmod>2026-11-14</lastmod>
     <priority>0.7</priority>
   </url>
@@ -96,13 +101,113 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://library.agardresearchassociates.org/public-service-transition/transition-checklist-veterans.pdf</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://library.agardresearchassociates.org/public-service-transition/transition-plan-worksheet.pdf</loc>
     <lastmod>2026-11-14</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://library.agardresearchassociates.org/public-service-transition/referral-guide.pdf</loc>
+    <loc>https://library.agardresearchassociates.org/public-service-transition/working-with-government-from-the-outside.pdf</loc>
     <lastmod>2026-11-14</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/tcava/brief.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/tcava/presentation.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/tcava/references.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/voter-id/document-consistency-en.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/voter-id/document-consistency-es.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/voter-id/references.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/voter-id/report.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/voter-id/summary-en.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/voter-id/summary-es.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/voter-id/voting-guide-en.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/voter-id/voting-guide-es.pdf</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/public-service-transition/translation-dictionary/</loc>
+    <lastmod>2026-11-14</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/references/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/references/veterans-preference-rif-references-v1.0.pdf</loc>
+    <lastmod>2026-11-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/report/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/report/veterans-preference-rif-policy-analysis-v1.0.pdf</loc>
+    <lastmod>2026-11-07</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/summary/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://library.agardresearchassociates.org/veterans-preference-rif/summary/veterans-preference-rif-summary-en.pdf</loc>
+    <lastmod>2026-11-07</lastmod>
     <priority>0.7</priority>
   </url>
 </urlset>
