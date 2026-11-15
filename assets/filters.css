@@ -1,0 +1,24 @@
+/* Library filters, matching the directory pages on www.agardresearchassociates.org.
+   Use with /assets/filters.js. Mark the list with class="filterable" and give each item
+   data attributes that match the data-filter name of each select. */
+.filter-toggle { display: inline-block; margin: 26px 0 0; padding: 0; background: none; border: 0; font-family: var(--sans); font-size: 18px; color: var(--text); text-decoration: underline; text-underline-offset: 5px; cursor: pointer; }
+.filter-toggle:hover { color: var(--ink); }
+.filter-toggle[hidden], .filters[hidden], .filter-none[hidden], .filterable > li[hidden] { display: none; }
+.filters { margin: 0 0 40px; padding: 0 0 28px; border-bottom: 1px solid var(--rule); }
+.filters-h { font-family: var(--sans); font-size: 20px; font-weight: 700; margin: 0 0 18px; }
+.filter-grid { display: flex; flex-wrap: wrap; gap: 20px 28px; align-items: flex-end; }
+.filter-field { flex: 1 1 240px; }
+.filter-field label { display: block; font-size: 15px; color: var(--body); margin: 0 0 8px; }
+.filter-field select { -webkit-appearance: none; appearance: none; width: 100%; margin: 0; padding: 9px 44px 9px 14px; border: 0; border-bottom: 1px solid var(--text); border-radius: 0;
+  background: #EEEFED url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'%3E%3Cpath d='M1 1l6 6 6-6' fill='none' stroke='%231E1E1E' stroke-width='1.6'/%3E%3C/svg%3E") no-repeat right 14px center;
+  font-family: var(--sans); font-size: 15px; color: var(--text); cursor: pointer; }
+.filter-field select:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.filter-clear { flex: 0 0 auto; padding: 11px 22px; }
+.filter-count { margin: 16px 0 0; font-size: 13px; color: var(--muted); }
+.filter-none { margin: 0 0 16px; font-size: 15px; color: var(--body); }
+.pub-filters { max-width: 1000px; }
+.hero-landing .filter-toggle { margin-top: 22px; }
+@media (max-width: 720px) {
+  .filter-field { flex-basis: 100%; }
+  .filter-toggle { font-size: 16px; }
+}

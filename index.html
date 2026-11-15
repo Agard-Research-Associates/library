@@ -33,6 +33,8 @@
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#E0E2DE">
 <link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/filters.css">
+<script src="/assets/filters.js" defer></script>
 <script type="application/ld+json">{
  "@context": "https://schema.org",
  "@type": "WebSite",
@@ -122,21 +124,50 @@
       <img class="mark" src="/assets/img/ara-mark.png" width="105" height="78" alt="">
       <h1>Library</h1>
       <p class="hero-sub">Reports, workshop resources, and presentations from Agard Research Associates Inc.</p>
+      <button type="button" class="filter-toggle" data-filter-toggle aria-expanded="false" aria-controls="filters" hidden>Show filters</button>
     </div>
   </section>
   <section class="pubs" aria-label="Publications">
-    <ul class="wrap pub-list">
-      <li class="pub-card">
+    <div class="wrap pub-filters">
+      <div class="filters" id="filters" role="search" aria-label="Filter the library" data-filter-items=".pub-list > li" data-noun="entries" hidden>
+        <h2 class="filters-h">Filters</h2>
+        <div class="filter-grid">
+          <div class="filter-field">
+            <label for="f-audience">Filter by Audience</label>
+            <select id="f-audience" data-filter="audience">
+              <option value="">All</option>
+              <option value="veterans-public">Veterans and public employees</option>
+              <option value="nonprofit">Nonprofit and community organizations</option>
+              <option value="general">General public</option>
+            </select>
+          </div>
+          <div class="filter-field">
+            <label for="f-format">Filter by Format</label>
+            <select id="f-format" data-filter="format">
+              <option value="">All</option>
+              <option value="guide">Interactive guides</option>
+              <option value="workshop">Workshop materials</option>
+              <option value="program">Program materials</option>
+            </select>
+          </div>
+          <button type="button" class="btn btn-black filter-clear" data-filter-clear>Clear filters</button>
+        </div>
+        <p class="filter-count" data-filter-count aria-live="polite"></p>
+      </div>
+      <p class="filter-none" data-filter-none hidden>No entries match these filters. Choose Clear filters to see everything in the library.</p>
+    </div>
+    <ul class="wrap pub-list filterable">
+      <li class="pub-card" data-audience="veterans-public general" data-format="guide">
         <h2>Veterans’ Preference in Federal Reductions in Force</h2>
         <p class="pub-sub">An Interactive Guide to the 2026 Reduction-in-Force Rule</p>
         <a class="btn btn-view" href="/veterans-preference-rif/" target="_blank" rel="noopener">View here<span class="sr-only"> (opens in a new window)</span></a>
       </li>
-      <li class="pub-card">
+      <li class="pub-card" data-audience="nonprofit" data-format="workshop">
         <h2>Nonprofit Transparency and Public Trust</h2>
         <p class="pub-sub">What the Research Says About Nonprofit Disclosure, Accountability, and Giving</p>
         <a class="btn btn-view" href="/nonprofit-transparency/" target="_blank" rel="noopener">View here<span class="sr-only"> (opens in a new window)</span></a>
       </li>
-      <li class="pub-card">
+      <li class="pub-card" data-audience="veterans-public" data-format="program">
         <h2>Public Service Transition Program</h2>
         <p class="pub-sub">Free Transition Resources for Veterans and Public Employees</p>
         <a class="btn btn-view" href="/public-service-transition/" target="_blank" rel="noopener">View here<span class="sr-only"> (opens in a new window)</span></a>
